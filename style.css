@@ -4,7 +4,6 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
-@media (max-width: 600px);
 
 body {
     background-color: #222;
@@ -52,7 +51,7 @@ body {
 }
 
 .search button img {
-    width: 26px;
+    width: 10px;
 }
 
 .weather-icon {
