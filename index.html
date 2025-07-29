@@ -3,41 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather app</title>
-    <link rel="stylesheet" href="style.css"/>
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="card">
-        <div class="search">
-            <input type="text" placeholder="Enter City Name" spellcheck="false">
-            <button><img src="wimg/search1.png" alt="search image" ></button>
-        </div>
+    <header>
+        <div class="nabar">
+            <div class="nab-logo border">
+                <div class="logo"></div>
+            </div>
 
-        <div class="error">
-            <p>Invalid City Name</p>
-        </div>
-
-        <div class="weather">
-            <img src="wimg/rains.png" class="weather-icon" >
-            <h1 class="temp">22°c</h1>
-            <h2 class="city">New Delhi</h2>
-
-            <div class="details">
-
-                <div class="col">
-                    <img src="wimg/humidity.webp">
-                    <p class="humidity">50%<br></p>
-                    <p>Humidity</p>
-                </div>
-
-                <div class="col">
-                    <img src="wimg/wind.jpg">
-                    <p class="wind">15 km/h <br></p>
-                    <p>Wind Speed</p>
+            <div class="nab-address border">
+                <p class="deliver">Deliver to</p>
+                <div class="add-icon">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="india">India</p>
                 </div>
             </div>
+
+            <div class="nab-search-bar">
+                <select class="search-select">
+                    <option>all</option>
+                    <input placeholder="Search Amazon.in" class="input">
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </select>
+            </div>
+            <div class="lang border">
+                 <img src="image/indiafleg.jpg" alt="" class="india-flag">
+                <select class="select-lang" >  
+                    <option>EN</option>
+                </select>
+            </div>
+
+        <div class="nab-signin border" >
+            <p><span>Hello, sign in</span></p>
+            <p class="nab-account">Account & Lists</p>
+        </div>
+        <div class="nab-return border">
+            <p><span>Returns</span></p>
+            <p class="nab-account">& Order</p>
+        </div>
+        <div class="nab-cart border">
+        <i class="fa-solid fa-cart-arrow-down"></i>
+        Cart
+        </div>
+        </div> 
+        <div class="panal ">
+            <div class="panal-all border">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="panal-option ">
+               
+               <p class="border">Sell</p>
+               <p class="border">Bestsellers</p>
+               <p class="border">Today's Deals</p>
+               <p class="border">Mobiles</p>
+               <p class="border">Prime</p>
+               <p class="border">Customer Service</p>
+               <p class="border">New Releases</p>
+               <p class="border">Fashion</p>
+               <p class="border">Amazon Pay</p>
+               <p class="border">Electronics</p>
+               <p class="border">Home & Kitchen</p>
+               <p class="border">Computers</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="slider-container">
+        <div class="slider-wrapper swiper-wrapper">
+           <div class="slider-item swiper-slide">
+               <div class="slider-content">
+               </div>
+           </div>
+
+            <div class="slider-item swiper-slide">
+               <div class="slider-content">
+               </div>
+           </div>
+
+            <div class="slider-item swiper-slide">
+               <div class="slider-content">   
+               </div>
+           </div>
+
+            <div class="slider-item swiper-slide">
+               <div class="slider-content">  
+               </div>
+           </div>
+
+            <div class="slider-item swiper-slide">
+               <div class="slider-content">    
+               </div>
+           </div>
+
+            <div class="slider-item swiper-slide">
+               <div class="slider-content">      
+               </div>
+           </div> 
         </div>
     </div>
+    <div class="shop-section">
+        <div class="main-box">
+            
+            <div class="box1 box">all conditioners</div>
+            <div class="box2 box">refrigerators</div>
+            <div class="box3 box">Mircowaves</div>
+            <div class="box4 box">Washing Machines</div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
